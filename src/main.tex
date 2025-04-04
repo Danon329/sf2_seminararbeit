@@ -2,14 +2,67 @@
 %! Date = 04.04.25
 
 % Preamble
-\documentclass[12pt]{article}
+\documentclass[12pt]{extarticle}
 
 % Packages
-\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{moresize}
+\usepackage{helvet}
+\usepackage{pdfpages}
+\usepackage{eso-pic}
+\usepackage{pdflscape}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{calc}
+\usepackage{lipsum} % For testing
+\usepackage{hyperref} % Last Package ALWAYS
+
+% Changing default commands
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\renewcommand{\tablename}{Tabelle}
+\renewcommand{\headrulewidth}{0pt}
+
+% setup headers and footers
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[C]{Seminararbeit KI und Moral --- Daniel Salit}
+\fancyfoot[C]{\thepage}
+
+\pagestyle{fancy}
 
 % Document
 \begin{document}
+    \begin{titlepage}
+        \newgeometry{a4paper, margin=3 cm}
+        \begin{center}
+            \vspace{3 cm}
+            \large
+            Gymnasium Bammental \\
+            Klassenstufe 11 \\
+            Seminarkurs 2024/25 - Künstliche Intelligenz \\
+            Betreuer: Dr. B. Mancini \\
+            \vfill
+            \HUGE KI und Moral \\
+            \vspace{5 cm}
+            \large
+            Gaiberg, 10.04.2025 \\
+            \vspace{2 cm}
+            vorgelegt von: \\
+            ~\newline
+            Daniel Salit \\
+            Am Himbeeracker 5 \\
+            69251 Gaiberg \\
+            daniel.salit@hotmail.com \\
+        \end{center}
+    \end{titlepage}
 
+    \newgeometry{a4paper, tmargin=2.3 cm, lmargin=2.3 cm, bmargin=2.3 cm, rmargin=3 cm}
+
+    \tableofcontents
+
+    \clearpage
 
 
 \end{document}
