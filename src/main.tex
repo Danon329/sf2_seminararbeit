@@ -18,6 +18,8 @@
 \usepackage{lipsum} % For testing
 \usepackage{hyperref} % Last Package ALWAYS
 
+\hypersetup{hidelinks}
+
 % Changing default commands
 \renewcommand{\familydefault}{\sfdefault}
 \renewcommand{\contentsname}{Inhaltsverzeichnis}
@@ -34,8 +36,9 @@
 
 % Document
 \begin{document}
+    % Title page
     \begin{titlepage}
-        \newgeometry{a4paper, margin=3 cm}
+        \newgeometry{a4paper, margin=3 cm} % Page Layout
         \begin{center}
             \vspace{3 cm}
             \large
@@ -56,13 +59,18 @@
             69251 Gaiberg \\
             daniel.salit@hotmail.com \\
         \end{center}
+        \normalsize
     \end{titlepage}
 
-    \newgeometry{a4paper, tmargin=2.3 cm, lmargin=2.3 cm, bmargin=2.3 cm, rmargin=3 cm}
+    \newgeometry{a4paper, tmargin=2.3 cm, lmargin=2.3 cm, bmargin=2.3 cm, rmargin=3 cm} % Page Layout
 
     \tableofcontents
 
     \clearpage
 
+    \input{chapters/einleitung}
+
+    \clearpage
+    \input{chapters/ethikUndMoral}
 
 \end{document}
