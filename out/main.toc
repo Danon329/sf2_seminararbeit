@@ -4,3 +4,4 @@
 \contentsline {subsection}{\numberline {2.2}Ethische Grundlagen der KI}{3}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Pflichtenethik}{3}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Utilitarismus}{3}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}Literatur- und Quellenverzeichnis}{5}{section.3}%
