@@ -4,4 +4,11 @@
 \contentsline {subsection}{\numberline {2.2}Ethische Grundlagen der KI}{3}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Pflichtenethik}{3}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Utilitarismus}{3}{subsubsection.2.2.2}%
-\contentsline {section}{\numberline {3}Literatur- und Quellenverzeichnis}{5}{section.3}%
+\contentsline {section}{\numberline {3}Zur Moral fähige KI}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Artificial Morality (AM)}{4}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Information zu weiteren Details}{4}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Anwendungsmöglichkeiten einer moralischen KI}{4}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Autonomes Fahren}{4}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Pflege}{5}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Saugroboter}{5}{subsubsection.3.2.3}%
+\contentsline {section}{\numberline {4}Literatur- und Quellenverzeichnis}{6}{section.4}%
