@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.24)  7 APR 2025 20:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.24)  9 APR 2025 19:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -508,7 +508,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.69     \clearpage
+l.70     \clearpage
                     [1
 
 ] (./chapters/einleitung.tex)
@@ -552,7 +552,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4])
+[4]) (./chapters/studien.tex
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 17.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -561,66 +566,106 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5] (./chapters/literaturverzeichnis.tex
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 4.
+[5]
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--36
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+Overfull \hbox (3.73439pt too wide) in paragraph at lines 82--84
+\OT1/phv/m/n/12 gro^^Yen An-teilen von moralis-chen Aus-rich-tun-gen, ver-schie
+den schnell und mit ver-schiede-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8] (./chapters/literaturverzeichnis.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--36
+Underfull \hbox (badness 10000) in paragraph at lines 3--50
 
  []
 
 
-Overfull \hbox (1.51778pt too wide) in paragraph at lines 3--36
+Underfull \hbox (badness 10000) in paragraph at lines 3--50
+
+ []
+
+
+Overfull \hbox (1.51778pt too wide) in paragraph at lines 3--50
 \OT1/phv/m/n/12 Meyer, L.: Art. "Pflicht-enethik" (Ver-sion 1.0 vom 12.10.2017)
 , in: Ethik-Lexikon, verf[]ugbar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--36
+Underfull \hbox (badness 10000) in paragraph at lines 3--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--36
+Underfull \hbox (badness 10000) in paragraph at lines 3--50
 
  []
 
 
-Overfull \hbox (10.47687pt too wide) in paragraph at lines 3--36
+Overfull \hbox (10.47687pt too wide) in paragraph at lines 3--50
 \OT1/phv/m/n/12 Misselhorn, Catrin. \OT1/phv/m/sl/12 Maschinenethik und "Ar-ti-
 fi-cial Moral-ity"\OT1/phv/m/n/12 ; [[]https://www.bpb.de/shop/zeit-
  []
 
 
-Overfull \hbox (0.49005pt too wide) in paragraph at lines 3--36
+Overfull \hbox (0.49005pt too wide) in paragraph at lines 3--50
 \OT1/phv/m/n/12 schriften/apuz/263684/maschinenethik-und-artificial-morality/[]
 ; let-zter Abruf: 07.04.2025] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--36
+Underfull \hbox (badness 10000) in paragraph at lines 3--50
 
  []
 
 
-Overfull \hbox (5.86159pt too wide) in paragraph at lines 3--36
+Overfull \hbox (5.86159pt too wide) in paragraph at lines 3--50
 \OT1/phv/m/n/12 Schedel, T.: Art. "Util-i-taris-mus" (Ver-sion 1.0 vom 12.11.20
 18), in: Ethik-Lexikon, verf[]ugbar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--36
+Underfull \hbox (badness 10000) in paragraph at lines 3--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--36
+Underfull \hbox (badness 10000) in paragraph at lines 3--50
 
+ []
+
+
+Overfull \hbox (4.96259pt too wide) in paragraph at lines 3--50
+\OT1/phv/m/n/12 Sophie Jentzsch, Patrick Schramowski, Con-stantin Rothkopf, and
+ Kris-tian Ker-st-ing. 2019.
  []
 
 )
@@ -632,7 +677,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6
+[9
 
 ] (/Users/daniel/Documents/schule/Seminarkurs/sf2_seminararbeit/out/main.aux)
  ***********
@@ -640,24 +685,25 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5D37B8F96BB5DFB0F33F19DB70482D44;2262.
+(rerunfilecheck)             Checksum: 23E4E11EE7ADF590D06AB951F0959DB4;3058.
  ) 
 Here is how much of TeX's memory you used:
- 11022 strings out of 474116
- 179190 string characters out of 5743682
- 1937187 words of memory out of 5000000
- 33177 multiletter control sequences out of 15000+600000
- 579430 words of font info for 69 fonts, out of 8000000 for 9000
+ 11066 strings out of 474116
+ 179842 string characters out of 5743682
+ 1939187 words of memory out of 5000000
+ 33191 multiletter control sequences out of 15000+600000
+ 583076 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,11n,93p,334b,559s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/
-texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+ 79i,12n,93p,435b,559s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/l
+ocal/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on /Users/daniel/Documents/schule/Seminarkurs/sf2_seminararbeit/
-out/main.pdf (7 pages, 48606 bytes).
+out/main.pdf (10 pages, 70806 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 145 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 243 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

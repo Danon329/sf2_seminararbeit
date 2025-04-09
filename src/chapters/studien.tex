@@ -1,0 +1,89 @@
+\section{Aktuelle Studien und Erkenntnisse}\label{sec::studien}
+
+\subsection{Die Moral Choice Machine}\label{subsec::moral choice machine}
+
+Die Studie \textit{Semantics Derived Automatically From Language Corpora Contain Human-like Moral Choices} wurde 2019
+als Teil der AAAI/ACM\footnote{Association for the Advancement of Artificial Intelligence/ Association for Computing Machinery}
+Konferenz für KI, Ethik und Gesellschaft\footnote{AIES: Conference on AI, Ethics and Society}
+veröffentlicht.
+
+In dieser Studie wollen die Forschenden die Frage beantworten, ob eine KI Moral und Ethik erlernen kann.
+Für ihre Studie benutzen die Autoren, als Grundlage für ihr ethisches Modell, die deontologische Ethik\footnote{Pflichtenethik}
+(siehe ~\ref{subsubsec::pflichtenethik}).
+Sie betrachten die Antwort-möglichkeiten \textit{richtig} und \textit{falsch} oder \textit{do's} und \textit{don'ts} auf
+eine Frage und urteilen nach der Wahrscheinlichkeitsverteilung auf diese beiden Antworten.
+Es soll der moralische Wert von Worten in \textit{gut} oder \textit{schlecht} ermittelt werden.
+Auf diese Weise soll eine KI selbst in der Lage dazu sein, Wörtern, die die KI aus
+von Menschen verfassten Quellen kriegt, kontextuell einen moralischen Wert zuzuweisen.\footnote{vgl. Sophie Jentzsch et al. Semantics Derived Automatically From Language Corpora Contain Human-like Moral Choices; \textit{Abstract}}
+
+Die KI geht in 3 Schritten vor.
+Im ersten Schritt extrahiert sie das Wort, meistens ein Verb aus einem gegebenen Text.
+Während der Extrahierung benutzen die Autoren WEATs\footnote{Word Embedding Associations Tests}, um einen anfänglichen
+Wert dem Wort zuzuweisen.
+Anschließend wird im zweiten Schritt das Wort in verschiedene vorgegebene Fragen verpackt.
+Ein Beispiel für eine solche Frage mit dem Beispiels wort \textit{töten} wäre:
+\textit{Soll ich töten}.
+Danach wird ein von den Autoren entwickelter Algorithmus, die Moral Choice Machine, auf diesen Satz angewandt.
+Die Moral Choice Machine, bezieht auch den Satz in betracht und gibt nach dem Auswerten von vielen Beispielsätzen ebenfalls
+einen Wert für das Wort aus.
+Diesen Wert nennen die Autoren \textit{Moral Bias}.
+Im letzten großen Schritt wird der WEAT Wert mit dem berechneten Moral Bias verglichen.\footnote{vgl. Sophie Jentzsch et al. Semantics Derived Automatically From Language Corpora Contain Human-like Moral Choices; \textit{1 Introduction}}
+
+Der WEAT betrachtet in seiner Evaluation nur das Wort ohne den Kontext.
+Die Moral Choice Machine kann hingegen, durch die Zuweisung von dem Wort in verschiedene Sätze, kontextuell einen Wert für das
+Wort ermitteln.
+Es ist somit möglich, dass ein normalerweise schlechtes Wort auch in einem guten Kontext benutzt werden kann.
+Das wird auch in die Ermittlung bezogen.\footnote{vgl. Sophie Jentzsch et al. Semantics Derived Automatically From Language Corpora Contain Human-like Moral Choices; \textit{3.2 The Moral Choice Machine}}
+Durch den Vergleich von beiden Werten, lässt sich ein ziemlich akkurates Bild vom wirklichen moralischen Wert machen.
+
+Das Experiment hat gezeigt, dass die Werte, die von der KI ermittelt wurden, vergleichbar sind mit der Wertzuweisung von AFINN\footnote{Affective Lexicon}.
+AFINN beinhaltet die Wertzuweisung von Menschen und ist somit das erwünschte Resultat.\footnote{vgl. Sophie Jentzsch et al. Semantics Derived Automatically From Language Corpora Contain Human-like Moral Choices; \textit{4 Experimental Results}}
+
+Am Ende haben die Autoren der Studie herausgefunden, dass der moralische Wert eines Wortes von seinem Kontext abhängt.
+Dazu haben sie eine Moral Choice Machine entwickelt, die kontextuell so einen moralischen Wert zuweisen kann.
+Als Folge könnte dieses System zukünftig für KIs verwendet werden, die dazu fähig sein sollen moralische Entscheidungen zu treffen (siehe ~\ref{subsec::artificial morality})
+und auch neue moralische Werte aus ihrem Umfeld zu lernen.\footnote{vgl. Sophie Jentzsch et al. Semantics Derived Automatically From Language Corpora Contain Human-like Moral Choices; \textit{5 Conclusions}}
+
+\subsection{Dynamiken von moralischen Verhalten in heterogenen Populationen}\label{subsec::dynamiken moralischen verhalten}
+
+Als Teil der Proceedings für die 2024 AAAI/ACM Konferenz für KI, Ethik und Gesellschaft (AIES) wurde die Studie
+\textit{Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents} veröffentlicht.
+
+Die Autoren dieser Studie betrachten die Frage, wie sich moralische KIs benehmen, wenn sie mit einer anderen moralischen Ausrichtung
+konfrontiert werden.
+Voraussetzung für eine solche Konfrontation ist, dass die KI von Interaktionen und neuen Erfahrungen lernen kann.
+Zum Beispiel wie bei \textit{Reinforcement Learning}.
+Spezifisch will man den allgemeinen Fall einer Population mit vielen verschiedenen moralischen Ausrichtungen betrachten und somit
+auch mit viel verschiedenen Einfluss aufeinander.
+In dieser Studie wird der Einfluss von verschiedenen RF\footnote{Reinforcement Learning} KIs betrachtet, das kann jedoch
+auch auf menschliche Gesellschaften angewandt werden.
+Ein Umfeld einer Population mit verschiedenen moralischen Ausrichtung wird hier als, moralisch heterogenen Population\footnote{morally heterogenous population}
+bezeichnet.
+Um herauszufinden, wie ein moralisch heterogenes Umfeld aufeinander Einfluss nimmt, haben die Forscher das Iterated Prisoner's Dilemma (\hyperlink{IPD}{siehe Iterated Prisoner's Dilemma}) zusammen mit einem
+Auswahlmechanismus angewendet.
+Es wird geschaut, wie die individuellen Spieler, die alle Teil dieser moralisch heterogenen Population sind, sich gegenseitig beeinflussen.\footnote{vgl. Elizaveta Tennant, et al. Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents; \textit{Abstract}}
+
+Ziel dieser Studie ist es herauszufinden, wie sich die verschiedenen moralischen Ausrichtungen entwickeln, nachdem sie in
+Kontakt mit anderen Ausrichtungen gekommen sind.
+Diese Erkenntnis ist wichtig, da bei der Integration von moralischer KI die Entwickler verschiedene Werte und Normen verschieden
+stark gewichten und sich ungewollte Entwicklungen bei Interaktionen mit anderen KIs zeigen könnten.\footnote{vgl. Elizaveta Tennant, et al. Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents; \textit{Introduction}}
+
+\hypertarget{IPD}
+Im Prisoner's Dilemma, spielen zwei Spieler gegeneinander.
+Jeder Spieler hat die Option zwischen Kooperation oder Verrat zu wählen.
+Die Spieler müssen gleichzeitig entscheiden und haben keine möglichkeit miteinander zu kommunizieren.
+In der wiederholten Version (Iterated Prisoner's Dilemma) des Spiels, merken sich die Spieler, was ihr Gegner
+in der Runde zuvor genommen hat und können damit ihr Verhalten anpassen.\footnote{vgl. Elizaveta Tennant, et al. Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents; \textit{Social Dilemma Games}}
+
+Jede einzelne moralische Ausrichtung hat verschiedene Motivationen zur Auswahl von den Antwortmöglichkeiten.
+Dadurch das jeder auf einer eigenen moralischen Grundlage handelt und nicht nur auf eine Gewinnoptimierung aus ist,
+entstehen verschiedene Belohnung für die verschiedenen moralischen Ausrichtungen.\footnote{vgl. Elizaveta Tennant, et al. Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents; \textit{Morality as Intrinsic Reward}}
+
+Die Ergebnisse dieses Experiments zeigen, dass sich Populationen mit verschieden großen Anteilen von moralischen Ausrichtungen,
+verschieden schnell und mit verschiedenen Anteilen zu wiederholter Kooperation in dem Spiel kommen.\footnote{vgl. Elizaveta Tennant, et al. Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents; \textit{Results}}
+
+In dieser Studie haben die Autoren einen Weg geschaffen, um die Dynamiken und ihre Auswirkungen auf die Gesellschaft von moralisch heterogenen Populationen
+zu erforschen.
+Dank dieser Studie wird es möglich sein, vorherzusagen, wie sich verschiedene moralische Systeme in KIs, die zu RL fähig sind, gegenseitig
+beeinflussen und damit lassen sich auch unerwünschte Folgen solcher Interaktionen verhindern.\footnote{vgl. Elizaveta Tennant, et al. Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents; \textit{Conclusion}} 
+

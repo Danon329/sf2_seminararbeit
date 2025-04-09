@@ -11,4 +11,7 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Autonomes Fahren}{4}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Pflege}{5}{subsubsection.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.3}Saugroboter}{5}{subsubsection.3.2.3}%
-\contentsline {section}{\numberline {4}Literatur- und Quellenverzeichnis}{6}{section.4}%
+\contentsline {section}{\numberline {4}Aktuelle Studien und Erkenntnisse}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Die Moral Choice Machine}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Dynamiken von moralischen Verhalten in heterogenen Populationen}{7}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Literatur- und Quellenverzeichnis}{9}{section.5}%
