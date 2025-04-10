@@ -14,4 +14,9 @@
 \contentsline {section}{\numberline {4}Aktuelle Studien und Erkenntnisse}{5}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Die Moral Choice Machine}{5}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Dynamiken von moralischen Verhalten in heterogenen Populationen}{7}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Literatur- und Quellenverzeichnis}{9}{section.5}%
+\contentsline {section}{\numberline {5}Die Zukunft}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Positive Prognose}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Neutrale Prognose}{8}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Negative Prognose}{9}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Fazit}{9}{section.6}%
+\contentsline {section}{\numberline {7}Literatur- und Quellenverzeichnis}{10}{section.7}%
