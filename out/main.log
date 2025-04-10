@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.24)  10 APR 2025 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.24)  10 APR 2025 14:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -511,7 +511,30 @@ been already used, duplicate ignored
 l.70     \clearpage
                     [1
 
-] (./chapters/einleitung.tex)
+] (./chapters/einleitung.tex
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 3.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7> on input line 8.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <5> on input line 8.
+
+./chapters/einleitung.tex:10: Undefined control sequence.
+l.10 Aber \texit
+                {was ist eine moralische KI}, \textit{was wird gerade daran ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (0.75836pt too wide) in paragraph at lines 17--26
+\OT1/phv/m/n/12 Schluss gibt die Sem-i-narar-beit noch einen kleinen Ein-blick 
+in m[]ogliche Prog-nosen, wohin
+ []
+
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -522,12 +545,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2
 
-] (./chapters/ethikUndMoral.tex
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 34.
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 34.
-)
+] (./chapters/ethikUndMoral.tex)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -553,8 +571,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]) (./chapters/studien.tex
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 17.
 
@@ -752,8 +768,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B11DD76FA83C4F7DFB12AB861530C09F;3667.
  ) 
 Here is how much of TeX's memory you used:
- 11107 strings out of 474116
- 180551 string characters out of 5743682
+ 11108 strings out of 474116
+ 180563 string characters out of 5743682
  1939187 words of memory out of 5000000
  33212 multiletter control sequences out of 15000+600000
  583076 words of font info for 73 fonts, out of 8000000 for 9000
@@ -764,10 +780,10 @@ Here is how much of TeX's memory you used:
 ocal/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/te
 xlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on /Users/daniel/Documents/schule/Seminarkurs/sf2_seminararbeit/
-out/main.pdf (12 pages, 78259 bytes).
+out/main.pdf (12 pages, 80298 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
+ 301 PDF objects out of 1000 (max. 8388607)
+ 276 compressed objects within 3 object streams
+ 71 named destinations out of 1000 (max. 500000)
  177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
