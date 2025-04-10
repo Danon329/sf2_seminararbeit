@@ -20,3 +20,4 @@
 \contentsline {subsection}{\numberline {5.3}Negative Prognose}{9}{subsection.5.3}%
 \contentsline {section}{\numberline {6}Fazit}{9}{section.6}%
 \contentsline {section}{\numberline {7}Literatur- und Quellenverzeichnis}{10}{section.7}%
+\contentsline {section}{\numberline {8}\ignorespaces Persönliche Erklärung}{12}{section.8}%
